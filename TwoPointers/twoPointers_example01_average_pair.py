@@ -1,3 +1,4 @@
+# Brute Force
 def average_pair(list_input, goal):
     count = 0
     for i in range(len(list_input)):
@@ -8,6 +9,7 @@ def average_pair(list_input, goal):
                 count += 1
     return count
 
+# Two Pointers Technique
 def average_pair_pointer(list_input, goal):
     count = 0
     pointer_left = 0
