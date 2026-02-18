@@ -1,16 +1,16 @@
 // 1 + 2 + 3 + ... + n = sum
 function fun1(n) {
-    let sum = 0;
-    for (let i = 1; i<=n; i++) {
-        sum += i;
-    }
-    return sum;
-};
+  let sum = 0;
+  for (let i = 1; i <= n; i++) {
+    sum += i;
+  }
+  return sum;
+}
 // console.log(fun1(10));
 
 function fun2(n) {
-    return ((1 + n) * n) / 2;
-};
+  return ((1 + n) * n) / 2;
+}
 
 // console.log(fun2(10));
 
@@ -24,4 +24,4 @@ let time3 = window.performance.now();
 fun2(100);
 let time4 = window.performance.now();
 let timeDiff2 = (time4 - time3) / 1000;
-console.log(`It takes ${timeDiff2} second top run fun2.`)
+console.log(`It takes ${timeDiff2} second top run fun2.`);
