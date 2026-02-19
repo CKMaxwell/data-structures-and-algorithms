@@ -4,7 +4,7 @@ def max_min_Sum(input_list, number):
 
     for i in range(0, len(input_list)-(number-1)):
         new_list = input_list[i: i+number]
-        print(new_list)
+        # print(new_list)
         if max_val is None:
            max_val = sum(new_list)
         elif max_val is not None:
